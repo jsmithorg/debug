@@ -1,0 +1,3 @@
+﻿package org.jsmith.debug.proxies{	import flash.events.*;
+	
+	import org.jsmith.debug.*;		public class TraceLogProxy extends EventDispatcher implements IEventDispatcher, ILogProxy	{		public function log(category:String, type:LogType, message:*):void 		{			trace("[ " + type + " ][ " + category + " ] :: " + message);						if((type == LogType.ERROR || type == LogType.FATAL) && message is Error)				trace("[ Stack Trace ]\n" + (message as Error).getStackTrace());					}//end method			}//end class	}//end package

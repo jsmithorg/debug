@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flexLibProperties version="1">
+<includeClasses>
+<classEntry path="org.jsmith.debug.Log"/>
+<classEntry path="org.jsmith.debug.LogOutput"/>
+<classEntry path="org.jsmith.debug.LogType"/>
+<classEntry path="org.jsmith.debug.proxies.HTMLLogProxy"/>
+<classEntry path="org.jsmith.debug.proxies.ILogProxy"/>
+<classEntry path="org.jsmith.debug.proxies.SOSLogProxy"/>
+<classEntry path="org.jsmith.debug.proxies.TraceLogProxy"/>
+</includeClasses>
+<includeResources/>
+<namespaceManifests/>
+</flexLibProperties>
